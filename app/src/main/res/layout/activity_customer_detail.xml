@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerDetail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_marginLeft="124dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:src="@drawable/profile"
+            app:civ_border_width="2dp"
+            android:padding="5dp"/>
+
+
+
+        <TextView
+            android:id="@+id/customerName"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="   Name : The Sparks Foundation "
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="21sp"
+            android:background="@drawable/bgbox"/>
+
+        <TextView
+            android:id="@+id/customerEmail"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:maxLines="1"
+            android:text="   Email : thesparksfoundation@gmail.com "
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="21sp"
+            android:background="@drawable/bgbox"/>
+        <TextView
+            android:id="@+id/customerAccNum"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="   Account Number : VBB452301 "
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="21sp"
+            android:background="@drawable/bgbox"/>
+        <TextView
+            android:id="@+id/customerPhoneNum"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="   Phone number : 8954836999 "
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="21sp"
+            android:background="@drawable/bgbox"/>
+        <TextView
+            android:id="@+id/customerBalance"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="   Current Balanace : Rs. 10,000/- "
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="21sp"
+            android:background="@drawable/bgbox"/>
+
+        <Button
+            android:id="@+id/copybtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copy A/c number"
+            android:layout_gravity="center"
+            android:background="@drawable/bgbox"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,2,3,4">
+
+    <TableRow
+        android:background="@drawable/bgbox"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        >
+        <TextView
+            android:id="@+id/count"
+            android:text="SR. No."
+            android:textSize="16dp"
+            android:padding="8dp"
+            android:layout_column="1"/>
+
+        <TextView
+            android:id="@+id/senderAcc"
+            android:text="From"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:gravity="right"
+            android:layout_column="1"/>
+
+        <TextView
+            android:id="@+id/receiverAcc"
+            android:text="To"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_column="1"/>
+
+        <TextView
+            android:id="@+id/amtTransfered"
+            android:text="Amount"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:gravity="right"
+            android:layout_column="1"/>
+    </TableRow>
+
+</TableLayout>
